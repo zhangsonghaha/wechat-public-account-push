@@ -32,7 +32,8 @@ const TEMPLATE_CONFIG = [
       
       {{moment_copyrighting.DATA}}
       
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
+      古诗标题:{{poetry_title.DATA}}
+      内容:{{poetry_content.DATA}}
     `
   },
   {
