@@ -38,7 +38,7 @@ const TEMPLATE_CONFIG = [
       
       内容:{{poetry_content.DATA}}
 
-      每日一言:{{note_ch.DATA}
+      每日一言:{{note_ch.DATA}}
 
       ---
       🗓️{{date.DATA}}
