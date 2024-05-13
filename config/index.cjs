@@ -29,11 +29,11 @@ USE_PASSAGE: 'push-plus',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '钦钦', year: '1998', date: '12-12',
+          type: '*生日', name: '钦钦', year: '1998', date: '12-26',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '钦钦', year: '1996', date: '11-11',
+          type: '生日', name: '钦钦', year: '1998', date: '11-08',
         },
         {
           type: '节日', name: '相识纪念日', year: '2024', date: '03-20',
