@@ -16,7 +16,7 @@ const TEMPLATE_CONFIG = [
       
       温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}}
       
-      风向🎐: {{wind_direction.DATA}}
+      风向🌬️: {{wind_direction.DATA}}
       
       风级🎚️: {{wind_scale.DATA}}
 
