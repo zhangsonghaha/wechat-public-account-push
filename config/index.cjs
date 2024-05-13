@@ -20,6 +20,7 @@ USE_PASSAGE: 'push-plus',
     IS_SHOW_COLOR: true,
     LITERARY_PREFERENCE: '',
     CIBA: true,
+    oneTalk: true,
   },
 
   USERS: [
