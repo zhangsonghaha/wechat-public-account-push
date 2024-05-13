@@ -39,6 +39,12 @@ const TEMPLATE_CONFIG = [
       内容:{{poetry_content.DATA}}
 
       每日一言:{{note_ch.DATA}
+
+      ---
+      🗓️{{date.DATA}}
+      城市：{{city.DATA}}
+      天气☁️：{{weather.DATA}}
+      温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}}
     `
   },
   {
