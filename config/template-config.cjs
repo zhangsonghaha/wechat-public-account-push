@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '亲爱的钦钦他同学, 早上好',
     desc: `
       **{{date.DATA}}**
       
@@ -19,6 +19,8 @@ const TEMPLATE_CONFIG = [
       风向: {{wind_direction.DATA}}
       
       风级: {{wind_scale.DATA}}
+
+      天气提醒:{{notice.DATA}}
       
       {{comprehensive_horoscope.DATA}}
       
@@ -33,7 +35,12 @@ const TEMPLATE_CONFIG = [
       {{moment_copyrighting.DATA}}
       
       古诗标题:{{poetry_title.DATA}}
+      
+      作者:{{poetry_author.DATA}}
+      
       内容:{{poetry_content.DATA}}
+
+      每日一言:{{wx_note_ch_{0}.DATA}}
     `
   },
   {
