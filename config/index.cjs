@@ -19,6 +19,7 @@ USE_PASSAGE: 'push-plus',
     poetry: true,
     IS_SHOW_COLOR: true,
     LITERARY_PREFERENCE: '',
+    CIBA: true,
   },
 
   USERS: [
