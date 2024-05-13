@@ -15,6 +15,11 @@ USE_PASSAGE: 'push-plus',
 
   PROVINCE: '河北',
   CITY: '邯郸',
+   SWITCH:{
+    poetry: true,
+    IS_SHOW_COLOR: true,
+    LITERARY_PREFERENCE: '',
+  },
 
   USERS: [
     {
