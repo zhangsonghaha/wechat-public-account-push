@@ -10,17 +10,19 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      城市：{{city.DATA}}
+      城市🌁：{{city.DATA}}
       
-      天气☁️：{{weather.DATA}}
+      天气🌻：{{weather.DATA}}
       
       温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}}
       
-      风向: {{wind_direction.DATA}}
+      风向🎐: {{wind_direction.DATA}}
       
-      风级: {{wind_scale.DATA}}
+      风级🎚️: {{wind_scale.DATA}}
 
-      预防感冒提醒：{{ganmao.DATA}}
+      预防感冒提醒🥵：{{ganmao.DATA}}
+
+      星座综合运势♑：
       
       {{comprehensive_horoscope.DATA}}
       
@@ -32,7 +34,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      {{moment_copyrighting.DATA}}
+      每日一言📜:{{moment_copyrighting.DATA}}
       
       古诗标题:{{poetry_title.DATA}}
       
@@ -43,6 +45,7 @@ const TEMPLATE_CONFIG = [
       每日一句😋
       
       中文：{{note_ch.DATA}}
+      
       English：{{note_en.DATA}}
     
       
