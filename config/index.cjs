@@ -13,13 +13,13 @@ USE_PASSAGE: 'push-plus',
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '059ce6275df522c92f9f99273bf6faa6',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '河北',
+  CITY: '邯郸',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '钦钦宝贝',
+      name: '钦钦同学',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'c57ce44593e3474ba85d7cda80bddcfe',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -29,14 +29,14 @@ USE_PASSAGE: 'push-plus',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '*生日', name: '钦钦', year: '1998', date: '12-12',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '生日', name: '钦钦', year: '1996', date: '11-11',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '相识纪念日', year: '2024', date: '03-20',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
