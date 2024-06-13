@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的钦钦同学, 早上好,今天也是好想你',
+    title: '亲爱的钦钦宝贝, 早上好,今天也是好想你',
     desc: `
       🗓️{{date.DATA}}
       
@@ -32,6 +32,9 @@ const TEMPLATE_CONFIG = [
       
       {{birthday_message.DATA}}
       
+      ---
+      今天是我们相爱的第{{}}天
+
       ---
       
       每日一言📜:{{moment_copyrighting.DATA}}
