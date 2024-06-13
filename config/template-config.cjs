@@ -33,7 +33,7 @@ const TEMPLATE_CONFIG = [
       {{birthday_message.DATA}}
       
       ---
-      今天是我们相爱的第{{}}天
+      今天是我们相爱的第{{marry_day.DATA}}天
 
       ---
       
